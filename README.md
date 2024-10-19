@@ -8,6 +8,12 @@ Simply execute the commande bellow in your Ubuntu terminal:
 bash <(curl -s https://raw.githubusercontent.com/Poezdec/story-oneclick/main/story_node_oneclick.sh)
 ```
 
+Snapshot installation:
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/Poezdec/story-oneclick/main/story_snap_oneclick.sh)
+```
+
 ### **Check sync status:**
 ```
 curl localhost:26657/status | jq
